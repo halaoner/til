@@ -1,6 +1,6 @@
 # SSH Into A Docker Container
 
-Before you can SSH into a Docker container, you need to know the name of the
+Before you can SSH into a Docker container, you need to know the id of the
 container.
 
 Run
@@ -9,11 +9,11 @@ Run
 $ docker ps
 ```
 
-to list the currently running containers and find the name of the one you want
+to list the currently running containers and find the id of the one you want
 to connect to. If you don't see the one you are looking for, it may not be
 running.
 
-Then, you can connect to it by name with a bash session like so:
+Then, you can connect to it by id with a bash session like so:
 
 ```bash
 $ docker exec -it <container id> /bin/bash

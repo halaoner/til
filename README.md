@@ -9,9 +9,9 @@ Inspired by [jbranchaud/til](https://github.com/jbranchaud/til) repository.
 
 # Categories
 - [DevOps](#DevOps)
-    - [Docker](Docker)
+    - [Docker](#Docker)
 
 
 # DevOps
-- Docker
-    - [SSH Into A Docker Container](devops/ssh-into-a-docker-container.md)
+## Docker
+- [SSH Into A Docker Container](devops/ssh-into-a-docker-container.md)
