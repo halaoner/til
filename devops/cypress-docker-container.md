@@ -1,4 +1,4 @@
-# Execute Tests In Cypress Docker Cntainer
+# Execute Tests In Cypress Docker Container
 
 Run Cypress tests inside the Cypress Docker container by running following shell command (you **DO NOT NEED** to install/ run `cypress install` on your localhost/ within the CI pipeline on a VM):
 
