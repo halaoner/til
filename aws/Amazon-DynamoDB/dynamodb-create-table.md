@@ -7,13 +7,13 @@ Create a table in to DynamoDB that runs locally in a Docker container.
 
 ```
 aws dynamodb create-table \
-    --table-name GPG-Statistics \
+    --table-name Statistics \
     --attribute-definitions \
-        AttributeName=PublicKeyID,AttributeType=N \
-        AttributeName=PublicKey,AttributeType=B \
+        AttributeName=KeyID,AttributeType=N \
+        AttributeName=ey,AttributeType=B \
     --key-schema \
-        AttributeName=PublicKeyID,KeyType=HASH \
-        AttributeName=PublicKey,KeyType=RANGE \
+        AttributeName=KeyID,KeyType=HASH \
+        AttributeName=Key,KeyType=RANGE \
     --provisioned-throughput \
         ReadCapacityUnits=5,WriteCapacityUnits=5 \
     --table-class STANDARD \

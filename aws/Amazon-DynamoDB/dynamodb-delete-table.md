@@ -9,5 +9,5 @@ aws dynamodb delete-table --table-name <name-of-table> --endpoint-url http://loc
 _For example:_
 
 ```bash
-aws dynamodb delete-table --table-name GPG-Statistics --endpoint-url http://localhost:8000
+aws dynamodb delete-table --table-name Statistics --endpoint-url http://localhost:8000
 ```

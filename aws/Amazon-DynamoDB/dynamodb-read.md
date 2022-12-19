@@ -9,5 +9,5 @@ aws dynamodb scan --table-name <name-of-table> --endpoint-url http://localhost:8
 _For example:_
 
 ```bash
-aws dynamodb scan --table-name GPG-Statistics --endpoint-url http://localhost:8000
+aws dynamodb scan --table-name Statistics --endpoint-url http://localhost:8000
 ```

@@ -2,6 +2,8 @@
 
 The following code snippet generate AWS temporary credentials done by [AWS SDK for JavaScript](https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/welcome.html).
 
+> NOTE: Identity Pools must be created!
+
 ```javascript
 // Set the region where your identity pool exists.
 AWS.config.region = 'eu-east-1';

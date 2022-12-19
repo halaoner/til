@@ -6,9 +6,9 @@ Write static data:
 
 ```bash
 aws dynamodb put-item \
-    --table-name GPG-Statistics  \
+    --table-name Statistics  \
     --item \
-        '{"PublicKeyID": {"N": "0002"},"PublicKey": {"S": "anothergpg-public-key-test67890!@£?>"}, "Timestamp": {"N": "20221211021725"}}' \
+        '{"KeyID": {"N": "0002"},"Key": {"S": "anothergpg--key-test67890!@£?>"}, "Timestamp": {"N": "20221211021725"}}' \
     --endpoint-url http://localhost:8000
 ```
 
@@ -16,8 +16,8 @@ or write new item by using environmental variables:
 
 ```bash
 aws dynamodb put-item \
-    --table-name GPG-Statistics  \
+    --table-name Statistics  \
     --item \
-        '{"PublicKeyID": {"N": "0003"},"PublicKey": {"B": '\"$PUBLICKEY\"'}, "Timestamp": {"N": '\"$TIME\"'}}' \
+        '{"KeyID": {"N": "0003"},"Key": {"B": '\"$KEY\"'}, "Timestamp": {"N": '\"$TIME\"'}}' \
     --endpoint-url http://localhost:8000
 ```
