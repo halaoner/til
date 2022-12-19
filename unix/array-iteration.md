@@ -7,7 +7,7 @@ COUNT=2
 # Get length of the file
 ARRAY_LENGTH=$(< array.txt wc -l | xargs)
 
-# Iterate over the file and get email address from the keyID
+# Iterate over the array
 while (( "${COUNT}" < "${ARRAY_LENGTH}" || "${COUNT}" == "${ARRAY_LENGTH}" ))
 do
    
