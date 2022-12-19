@@ -23,7 +23,7 @@ Output:
   "active": true,
   "expires_at": "2023-01-31",
   "access_level": 30,
-  "token": "glpat-itLzii1DbK9zd8ThnGTf"} 
+  "token": "glpat-3224wdsadasdas"} 
 ```
 
 The `jq` command is used to transform JSON data into a more readable format and print it to the standard output on Linux.

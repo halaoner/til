@@ -23,7 +23,7 @@ Output:
   "active": true,
   "expires_at": "2023-01-31",
   "access_level": 30,
-  "token": "glpat-9hz7-xU2koc6xh6nUy2A"} 
+  "token": "glpat-9hz7-1231231dsada"} 
 ```
  
 # Create Group Access Token For GitLab Repository

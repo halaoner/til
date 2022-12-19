@@ -42,7 +42,7 @@ Inspired by [jbranchaud/til](https://github.com/jbranchaud/til) repository.
 
 ## DevOps
 - Docker
-    - [SSH Into A Docker Container](devops/ssh-into-a-docker-container.md)
+    - [SSH Into A Docker Container](/devops/docker/ssh-into-a-docker-container.md)
     - [Clean Up (containers, images, volumes)](/devops/docker/clean-up.md)
     - [Remove Images Without Tag](/devops/docker/remove-images-without-tag.md)
     - [Debugging Tools](/devops/docker/debugging-tools.md)

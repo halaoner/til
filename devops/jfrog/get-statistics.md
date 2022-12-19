@@ -16,7 +16,7 @@ Output:
   "uri": "https://url:443/artifactory/docker-image/pre-commit/1.1/list.manifest.json",
   "downloadCount": 4,
   "lastDownloaded": 1671043670843,
-  "lastDownloadedBy": "oha",
+  "lastDownloadedBy": "john",
   "remoteDownloadCount": 0,
   "remoteLastDownloaded": 0
 }
