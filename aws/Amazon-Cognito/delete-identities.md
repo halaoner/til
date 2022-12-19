@@ -1,7 +1,7 @@
 # Delete IdentityId from Identities
 
 ```bash
-aws cognito-identity delete-identities --identity-ids-to-delete eu-central-1:16c0a606-f22f-4138-9f59-76734aa55409
+aws cognito-identity delete-identities --identity-ids-to-delete eu-east-1:16c0a606-f22f-4138-9f59-76734aa55409
 ```
 
 _Output:_
@@ -14,23 +14,15 @@ _Output:_
 
 ## Script for Deleting IdentityId from Identities
 
+Prerequsities:
+- AWS account
+- AWS `.aws/config` and `.aws/credentials` must be created in the user's home directory
+- Valid AWS credentials
+
 ```bash
 #!/usr/bin/env bash
 
-# ******************************************************************************************
-# ************************************ Prerequsities ***************************************
-# ******************************************************************************************
-# The following script deletes IdentityID from the given Amazon Cognito Identity Pool.
-#
-# ---> AWS account
-# ---> AWS '.aws/config' and '.aws/credentials' must be created in the user's home directory
-# ---> Valid AWS credentials
-#
-# ******************************************************************************************
-# ******************************************************************************************
-# ******************************************************************************************
-
-IDENTITY_POOL_ID="eu-central-1:8bb04998-b1dc-4a0c-b61f-58c3e7e891c4"
+IDENTITY_POOL_ID="eu-east-1:8b11111998-b1dc-4a0c-b61f-58c3e7e891c4"
 
 echo "Indentity Pool ID is set to: ${IDENTITY_POOL_ID}"
 

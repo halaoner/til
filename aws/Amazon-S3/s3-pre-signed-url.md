@@ -11,7 +11,7 @@ aws s3 presign s3://test-bucket/values/  --expires-in 86400
 _Output:_
 
 ```bash
-https://gpg-statistics-test-bucket.s3.eu-central-1.amazonaws.com/values/?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARAGDLGUCMVEXNKU4%2F20221115%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20221115T103835Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=9702c23f2f97f0d0c326ac27656e00f8991bf17115e7c0250bdcddd73ace1c51
+https://gpg-statistics-test-bucket.s3.eu-east-1.amazonaws.com/values/?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARAGDLGUCMVEXNKU4%2F20221115%2Feu-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221115T103835Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=9702c23f2f97f0d0c326ac27656e00f8991bf17115e7c0250bdcddd73ace1c51
 ```
 
 ## PUT Method
