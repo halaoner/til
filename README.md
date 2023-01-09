@@ -34,10 +34,11 @@ Inspired by [jbranchaud/til](https://github.com/jbranchaud/til) repository.
     - [GET Pre-signed URL For Every Object in S3 (AWS SDK)](/aws/Amazon-S3/pre-signed-url-for-each-object.md)
 
 ## Unix
-- Bash Script
+- Bash
     - [Array Iteration](/unix/array-iteration.md)
     - [Calling Function From CLI in Bash Script](/unix/call-function-from-script.md)
     - [Script Parameters Handling](/unix/script-parameters-handling.md)
+    - [Sharing Environment Variables Between Bash Scripts](/unix/sharing-env-variables.md)
 - [strace command](/unix/trace-command.md)
 
 ## DevOps
