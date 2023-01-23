@@ -49,6 +49,7 @@ Inspired by [jbranchaud/til](https://github.com/jbranchaud/til) repository.
     - [Remove Images Without Tag](/devops/docker/remove-images-without-tag.md)
     - [Debugging Tools](/devops/docker/debugging-tools.md)
     - [Non Executable Binaries](/unix/non-executable-binary.md)
+    - [Command Not Found During Docker Build](/devops/docker/command-not-found.md)
 - Git
     - [GitLab: Create Access Token](/devops/git/create-access-token-gitlab.md)
     - [GitLab: Get Access Token](/devops/git/get-access-token-gitlab.md)
