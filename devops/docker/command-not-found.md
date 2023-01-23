@@ -17,9 +17,11 @@ Code snippet from a `Dockerfile` build:
 
 ## Problem Solved
 
-- If the package is presented, script is executable, binary is in the `$PATH`, check if `bash` shell is installed (`alpine` linux distribution uses `ash` shell by default - see [alpine linux wiki](https://wiki.alpinelinux.org/wiki/Change_default_shell).
+- If the package is presented, script is executable, binary is in the `$PATH`, check the following:
+    - `bash` shell is installed (`alpine` linux distribution uses `ash` shell by default - see [alpine linux wiki](https://wiki.alpinelinux.org/wiki/Change_default_shell).
 
-- If the package/ binary is a shell script (*.sh), check the `shebang` (e.g., `/bin/bash`) and make sure that the interpreter is installed in the `Dockerfile` as well (e.g., `bash` in installed in a container).
+- If the package/ binary is a shell script (`*.sh`), check the following:
+    - the `shebang` - interpreter (e.g., `/bin/bash`) is presented/ installed in the container (`bash` in installed in to the container during `docker build`)
 
 - Every layer in a `Dockerfile`, e.g., `RUN`, `COPY` runs in a **separate shell session** (terminal)
     - for example, when I create `alias p='pwd'` in shell `session 1`, this `alias` will not be presented in the shell `session 2`
