@@ -12,7 +12,7 @@ The given scenario:
 run.sh pmd
 ```
 
-2. I cannot create a symbolic link to `script.sh arg1`:
+2. I cannot create a [symbolic link](https://www.freecodecamp.org/news/symlink-tutorial-in-linux-how-to-create-and-remove-a-symbolic-link/) to `script.sh arg1`:
 
 ```bash
 ln -s /pre-commit-config/run.sh pmd /usr/local/bin/pmd
