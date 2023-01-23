@@ -39,6 +39,7 @@ Inspired by [jbranchaud/til](https://github.com/jbranchaud/til) repository.
     - [Calling Function From CLI in Bash Script](/unix/call-function-from-script.md)
     - [Script Parameters Handling](/unix/script-parameters-handling.md)
     - [Sharing Environment Variables Between Bash Scripts](/unix/sharing-env-variables.md)
+    - [Passing Arguments to Another Script](/unix/passing-arguments-to-script.md)
 - [strace command](/unix/trace-command.md)
 
 ## DevOps
