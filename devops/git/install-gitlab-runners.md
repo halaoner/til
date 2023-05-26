@@ -25,8 +25,6 @@ Runners configuration is available in on the GitLab Runner Manager in `/etc/gitl
 
 > 💡 **INFO** 💡
 >
-> - `config.toml` file is available [here](../config.toml)
->
 > - `pre_build_script.sh` is mapped and executed from the docker container on the GitLab Runner
 >
 > - `pre_build_script.sh` is mounted in the root `/` directory, and therefore it must be executed from there:
