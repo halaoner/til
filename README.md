@@ -61,7 +61,7 @@ Inspired by [jbranchaud/til](https://github.com/jbranchaud/til) repository.
     - [Non Executable Binaries](/unix/non-executable-binary.md)
     - [Command Not Found During Docker Build](/devops/docker/command-not-found.md)
     - [docker-machine](/devops/docker/docker-machine.md)
-    - [Mountaing Docker Volumes](/devops/docker/mounting-volumes.md)
+    - [Mounting Docker Volumes](/devops/docker/mounting-volumes.md)
 - Git
     - [GitLab: Create Access Token](/devops/git/create-access-token-gitlab.md)
     - [GitLab: Get Access Token](/devops/git/get-access-token-gitlab.md)
