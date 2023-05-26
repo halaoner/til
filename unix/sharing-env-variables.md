@@ -19,7 +19,7 @@ env | grep UNIQUE_ID
 echo "This is an unique ID: ${UNIQUE_ID}"
 ```
 
-- You need to `source` the `first-script.sh` to access the `UNIQUE_ID` environment variable in the `second-script.sh`: 
+- You need to `source` the `first-script.sh` to access the `UNIQUE_ID` environment variable in the `second-script.sh`:
 
    - `source ./first-script.sh`
 

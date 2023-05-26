@@ -57,7 +57,7 @@ try {
       // Create a valid JSON again and write pre-signed GET URLs into the file
       const getUrl = JSON.stringify(listOfPreSignedGetUrl, null, 4);
 
-     // Write list of GET pre-signed URL in to a JSON file  
+     // Write list of GET pre-signed URL in to a JSON file
       fs.writeFile("preSignedGetUrl.json", getUrl, 'utf8', function (err) {
         if (err) {
             console.log("An error occured while writing JSON Object to File.");

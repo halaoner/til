@@ -1,7 +1,7 @@
 # Working With Binaries
 
 Binary is not executable:
-- Alpine docker image does not have `bash` installed by default 
+- Alpine docker image does not have `bash` installed by default
 - [Starting a shell in Docker an alpine container](https://stackoverflow.com/questions/35689628/starting-a-shell-in-the-docker-alpine-container)
 - [How to run a bash script in an alpine container](https://stackoverflow.com/questions/44803982/how-do-i-run-a-bash-script-in-an-alpine-docker-container)
 

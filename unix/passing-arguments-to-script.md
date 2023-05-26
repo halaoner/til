@@ -6,7 +6,7 @@ The given scenario:
 >
 > I need to execute a script that accepts an argument.
 
-1. PMD package (binary) is executed as `script.sh arg1` - see [PMD documentation](https://pmd.sourceforge.io/pmd-6.53.0/pmd_userdocs_installation.html#running-pmd-via-command-line): 
+1. PMD package (binary) is executed as `script.sh arg1` - see [PMD documentation](https://pmd.sourceforge.io/pmd-6.53.0/pmd_userdocs_installation.html#running-pmd-via-command-line):
 
 ```bash
 run.sh pmd
@@ -26,7 +26,7 @@ ln -s /pre-commit-config/run.sh /usr/local/bin/pmd
 
 4. I need to create a wrapper that allows to pass an argument to a script `script.sh arg1`
 
-- given `pmd.sh` script: 
+- given `pmd.sh` script:
 
 ```bash
 #!/bin/bash
@@ -73,7 +73,7 @@ PMD 6.53.0
 ln -s /pre-commit-config/pmd.sh /usr/local/bin/pmd
 ```
 
-- mapping ` /pre-commit-config/pmd.sh` to `/usr/local/bin/pmd` 
+- mapping ` /pre-commit-config/pmd.sh` to `/usr/local/bin/pmd`
 - `pmd` binary points to the `pmd.sh` script --> `/pre-commit-config/pmd.sh`
 - now you are able to run `pmd` from anywhere in the shell
 - you can check the create symbolic link:

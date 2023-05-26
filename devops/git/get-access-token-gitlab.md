@@ -1,12 +1,12 @@
 # Get Access Token per GitLab repository
 
 ```bash
-curl --header "PRIVATE-TOKEN: <personal-access-token>""https://gitlab.com/api/v4/projects/<project-id>/access_tokens"| jq 
+curl --header "PRIVATE-TOKEN: <personal-access-token>""https://gitlab.com/api/v4/projects/<project-id>/access_tokens"| jq
 ```
- 
+
 Output:
 
-```bash 
+```bash
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100   364  100   257  100   107    506    210 --:--:-- --:--:-- --:--:--   725
@@ -23,7 +23,7 @@ Output:
   "active": true,
   "expires_at": "2023-01-31",
   "access_level": 30,
-  "token": "glpat-3224wdsadasdas"} 
+  "token": "glpat-3224wdsadasdas"}
 ```
 
 The `jq` command is used to transform JSON data into a more readable format and print it to the standard output on Linux.

@@ -10,7 +10,7 @@ ARRAY_LENGTH=$(< array.txt wc -l | xargs)
 # Iterate over the array
 while (( "${COUNT}" < "${ARRAY_LENGTH}" || "${COUNT}" == "${ARRAY_LENGTH}" ))
 do
-   
+
     echo "Do something here...."
 
     # Increase $COUNT about number 1

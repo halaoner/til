@@ -15,7 +15,7 @@ Inspired by [jbranchaud/til](https://github.com/jbranchaud/til) repository.
 - [DevOps](#devops)
 - [Mac](#mac)
 
-## AWS 
+## AWS
 - Amazon Cognito
     - [List Identities in Identity Pool](aws/Amazon-Cognito/list-identities.md)
     - [Delete Identities in Identity Pool](aws/Amazon-Cognito/delete-identities.md)
@@ -32,6 +32,13 @@ Inspired by [jbranchaud/til](https://github.com/jbranchaud/til) repository.
 - Amazon S3
     - [Pre-signed URL (CLI)](aws/Amazon-S3/s3-pre-signed-url.md)
     - [GET Pre-signed URL For Every Object in S3 (AWS SDK)](/aws/Amazon-S3/pre-signed-url-for-each-object.md)
+    - [Copy Files to S3 Bucket](/aws/Amazon-S3/copy-files-to-s3.md)
+    - [Download Files from S3 Bucket](/aws/Amazon-S3/download-files-from-s3.md)
+- Amazon EFS
+    - [Mounting EFS](/aws/Amazon-EFS/mounting-efs.md)
+- Amazon EC2
+    - [Caveats of Spot Instances](/aws/Amazon-EC2/spot-instances.md)
+    - [cloud-init](/aws/Amazon-EC2/cloud-init.md)
 
 ## Unix
 - Bash
@@ -40,7 +47,10 @@ Inspired by [jbranchaud/til](https://github.com/jbranchaud/til) repository.
     - [Script Parameters Handling](/unix/script-parameters-handling.md)
     - [Sharing Environment Variables Between Bash Scripts](/unix/sharing-env-variables.md)
     - [Passing Arguments to Another Script](/unix/passing-arguments-to-script.md)
+    - [Calling a Script from the Main Script](/unix/calling-script-from-main-script.md)
 - [strace command](/unix/trace-command.md)
+- [Binary not Found (Symbolic Link)](/unix/binary-not-found.md)
+- [SSH Authentication](/unix/ssh-authentication.md)
 
 ## DevOps
 - Docker
@@ -50,11 +60,15 @@ Inspired by [jbranchaud/til](https://github.com/jbranchaud/til) repository.
     - [Debugging Tools](/devops/docker/debugging-tools.md)
     - [Non Executable Binaries](/unix/non-executable-binary.md)
     - [Command Not Found During Docker Build](/devops/docker/command-not-found.md)
+    - [docker-machine](/devops/docker/docker-machine.md)
+    - [Mountaing Docker Volumes](/devops/docker/mounting-volumes.md)
 - Git
     - [GitLab: Create Access Token](/devops/git/create-access-token-gitlab.md)
     - [GitLab: Get Access Token](/devops/git/get-access-token-gitlab.md)
     - [GitLab: Get Statistics From a Project](/devops/git/get-statistics-gitlab.md)
     - [GitLab: Run GitLab Runner Locally](/devops/git/run-gitlab-runner-locally.md)
+    - [GitLab: GitLab Runners Installation](/devops/git/install-gitlab-runners.md)
+    - [GitLab: GitLab CI/ CD](/devops/git/gitlab-ci-cd.md)
     - [Push Empty Commit](devops/push-empty-commit.md)
 - Cypress
     - [Cypress Tests Inside a Docker Container](devops/cypress-docker-container.md)

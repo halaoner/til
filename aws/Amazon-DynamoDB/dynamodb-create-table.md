@@ -1,5 +1,5 @@
 
-## [Create](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/getting-started-step-1.html) DynamoDB Table 
+## [Create](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/getting-started-step-1.html) DynamoDB Table
 
 Create a table in to DynamoDB that runs locally in a Docker container.
 
