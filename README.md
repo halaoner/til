@@ -69,7 +69,9 @@ Inspired by [jbranchaud/til](https://github.com/jbranchaud/til) repository.
     - [GitLab: Run GitLab Runner Locally](/devops/git/run-gitlab-runner-locally.md)
     - [GitLab: GitLab Runners Installation](/devops/git/install-gitlab-runners.md)
     - [GitLab: GitLab CI/ CD](/devops/git/gitlab-ci-cd.md)
-    - [Push Empty Commit](devops/push-empty-commit.md)
+    - [Push Empty Commit](/devops/push-empty-commit.md)
+    - [Commit Signing Flow](/devops/git/commit-signing.md)
+    - [Commit Verification Flow](/devops/git/commit-verification.md)
 - Cypress
     - [Cypress Tests Inside a Docker Container](devops/cypress-docker-container.md)
 - HashiCorp Vault
