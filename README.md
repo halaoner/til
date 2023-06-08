@@ -63,15 +63,16 @@ Inspired by [jbranchaud/til](https://github.com/jbranchaud/til) repository.
     - [docker-machine](/devops/docker/docker-machine.md)
     - [Mounting Docker Volumes](/devops/docker/mounting-volumes.md)
 - Git
-    - [GitLab: Create Access Token](/devops/git/create-access-token-gitlab.md)
-    - [GitLab: Get Access Token](/devops/git/get-access-token-gitlab.md)
-    - [GitLab: Get Statistics From a Project](/devops/git/get-statistics-gitlab.md)
-    - [GitLab: Run GitLab Runner Locally](/devops/git/run-gitlab-runner-locally.md)
-    - [GitLab: GitLab Runners Installation](/devops/git/install-gitlab-runners.md)
-    - [GitLab: GitLab CI/ CD](/devops/git/gitlab-ci-cd.md)
-    - [Push Empty Commit](/devops/push-empty-commit.md)
+    - [Push Empty Commit](/devops/git/push-empty-commit.md)
     - [Commit Signing Flow](/devops/git/commit-signing.md)
     - [Commit Verification Flow](/devops/git/commit-verification.md)
+- GitLab
+    - [GitLab: Create Access Token](/devops/gitlab/create-access-token-gitlab.md)
+    - [GitLab: Get Access Token](/devops/gitlab/get-access-token-gitlab.md)
+    - [GitLab: Get Statistics From a Project](/devops/gitlab/get-statistics-gitlab.md)
+    - [GitLab: Run GitLab Runner Locally](/devops/gitlab/run-gitlab-runner-locally.md)
+    - [GitLab: GitLab Runners Installation](/devops/gitlab/install-gitlab-runners.md)
+    - [GitLab: GitLab CI/ CD](/devops/gitlab/gitlab-ci-cd.md)
 - Cypress
     - [Cypress Tests Inside a Docker Container](devops/cypress-docker-container.md)
 - HashiCorp Vault
