@@ -49,6 +49,7 @@ Inspired by [jbranchaud/til](https://github.com/jbranchaud/til) repository.
     - [Passing Arguments to Another Script](/unix/passing-arguments-to-script.md)
     - [Calling a Script from the Main Script](/unix/calling-script-from-main-script.md)
 - [strace command](/unix/trace-command.md)
+- [find command](/unix/find-command.md)
 - [Binary not Found (Symbolic Link)](/unix/binary-not-found.md)
 - [SSH Authentication](/unix/ssh-authentication.md)
 
