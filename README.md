@@ -41,15 +41,18 @@ Inspired by [jbranchaud/til](https://github.com/jbranchaud/til) repository.
     - [cloud-init](/aws/Amazon-EC2/cloud-init.md)
 
 ## Unix
-- Bash
+- Shell Script
     - [Array Iteration](/unix/array-iteration.md)
     - [Calling Function From CLI in Bash Script](/unix/call-function-from-script.md)
     - [Script Parameters Handling](/unix/script-parameters-handling.md)
     - [Sharing Environment Variables Between Bash Scripts](/unix/sharing-env-variables.md)
     - [Passing Arguments to Another Script](/unix/passing-arguments-to-script.md)
     - [Calling a Script from the Main Script](/unix/calling-script-from-main-script.md)
-- [strace command](/unix/trace-command.md)
+- [curl command](/unix/curl-command.md)
 - [find command](/unix/find-command.md)
+- [gpg command](/unix/gpg-command.md)
+- [jq command](/unix/jq-command.md)
+- [strace command](/unix/trace-command.md)
 - [Binary not Found (Symbolic Link)](/unix/binary-not-found.md)
 - [SSH Authentication](/unix/ssh-authentication.md)
 
@@ -68,12 +71,14 @@ Inspired by [jbranchaud/til](https://github.com/jbranchaud/til) repository.
     - [Commit Signing Flow](/devops/git/commit-signing.md)
     - [Commit Verification Flow](/devops/git/commit-verification.md)
 - GitLab
-    - [GitLab: Create Access Token](/devops/gitlab/create-access-token-gitlab.md)
-    - [GitLab: Get Access Token](/devops/gitlab/get-access-token-gitlab.md)
-    - [GitLab: Get Statistics From a Project](/devops/gitlab/get-statistics-gitlab.md)
-    - [GitLab: Run GitLab Runner Locally](/devops/gitlab/run-gitlab-runner-locally.md)
-    - [GitLab: GitLab Runners Installation](/devops/gitlab/install-gitlab-runners.md)
-    - [GitLab: GitLab CI/ CD](/devops/gitlab/gitlab-ci-cd.md)
+    - [Create Access Token](/devops/gitlab/create-access-token-gitlab.md)
+    - [Get Access Token](/devops/gitlab/get-access-token-gitlab.md)
+    - [Get Statistics From a Project](/devops/gitlab/get-statistics-gitlab.md)
+    - [Run GitLab Runner Locally](/devops/gitlab/run-gitlab-runner-locally.md)
+    - [GitLab Runners Installation](/devops/gitlab/install-gitlab-runners.md)
+    - [GitLab CI/ CD](/devops/gitlab/gitlab-ci-cd.md)
+    - [Download GPG Public Key](/devops/gitlab/get-gpg-key.md)
+    - [Upload GPG Public Key](/devops/gitlab/put-gpg-key.md)
 - Cypress
     - [Cypress Tests Inside a Docker Container](devops/cypress-docker-container.md)
 - HashiCorp Vault
