@@ -48,6 +48,7 @@ Inspired by [jbranchaud/til](https://github.com/jbranchaud/til) repository.
     - [Sharing Environment Variables Between Bash Scripts](/unix/sharing-env-variables.md)
     - [Passing Arguments to Another Script](/unix/passing-arguments-to-script.md)
     - [Calling a Script from the Main Script](/unix/calling-script-from-main-script.md)
+    - [Check if Command Failed](/unix/command-exit-code.md)
 - [curl command](/unix/curl-command.md)
 - [find command](/unix/find-command.md)
 - [gpg command](/unix/gpg-command.md)
