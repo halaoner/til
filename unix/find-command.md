@@ -7,7 +7,7 @@ Examples of [find](https://www.redhat.com/sysadmin/linux-find-command) command.
 The following command finds content of the file:
 
 ```bash
-find . -name "*log" -exec grep -Hi SELinux {} \
+find . -name "*log" -exec grep -Hi SELinux {} \;
 ```
 
 Output:

@@ -54,6 +54,7 @@ Inspired by [jbranchaud/til](https://github.com/jbranchaud/til) repository.
 - [gpg command](/unix/gpg-command.md)
 - [jq command](/unix/jq-command.md)
 - [strace command](/unix/trace-command.md)
+- [vim command](/unix/vim-command.md)
 - [Binary not Found (Symbolic Link)](/unix/binary-not-found.md)
 - [SSH Authentication](/unix/ssh-authentication.md)
 
