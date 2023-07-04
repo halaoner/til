@@ -94,6 +94,6 @@ Inspired by [jbranchaud/til](https://github.com/jbranchaud/til) repository.
 
 # License
 
-© 2022-2023 Ondrej Halaska
+© 2022-2023 halaoner
 
 This repository is licensed under the [MIT License](https://opensource.org/license/mit/) license. See `LICENSE` for details.
