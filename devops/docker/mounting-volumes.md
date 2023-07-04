@@ -6,7 +6,7 @@ When mounting a volume (e.g., directories and files) from host to a Docker conta
 
 ```bash
 ls -lah
--rw-r--r--     1 oha   TI8M\Domänen-Benutzer   178B Nov  1 13:28 terraform.tfstate
+-rw-r--r--     1 oha   test-user   178B Nov  1 13:28 terraform.tfstate
 ```
 
 You can see that `terraform.tfstate` file is mounted correctly in the `container`

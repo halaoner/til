@@ -22,7 +22,7 @@ _`config.toml` code snippet:_
       7 #######################################################
       8
       9 [[runners]]
-     10   name = "aws-vpn-gitlab-runner-1"
+     10   name = "aws-gitlab-runner-1"
      11   url = "https://gitlab.com"
      12   id = 2643
      13   token = "REGISTRATION_TOKEN"
@@ -45,7 +45,7 @@ _`config.toml` code snippet:_
      30       "/mnt/s3/.npmrc:/.npmrc:ro",
      31       "/mnt/s3/.ssh/known_hosts:/.ssh_known_hosts:ro",
      32       "/mnt/s3/.ssh:/.ssh:ro",
-     33       "/mnt/s3/.ti8m-forge:/.ti8m-forge:ro",
+     33       "/mnt/s3/.team-config:/.team-config:ro",
      34       "/mnt/s3/pre_build_script.sh:/pre_build_script.sh:ro",
      35       "/root/.docker/buildx:/root/.docker/buildx:rw",
      36       "/var/run/docker.sock:/var/run/docker.sock:ro"
@@ -115,7 +115,7 @@ _Output:_
       4
       5
       6 [[runners]]
-      7   name = "aws-vpn-gitlab-runner-1"
+      7   name = "aws-gitlab-runner-1"
       8   url = "https://gitlab.com"
     ...
     ...

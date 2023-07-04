@@ -91,3 +91,7 @@ Inspired by [jbranchaud/til](https://github.com/jbranchaud/til) repository.
 
 ## Mac
 - [List Open Ports](mac/list-ports.md)
+
+# Licence
+
+The project is released under the [MIT License](https://opensource.org/license/mit/).
