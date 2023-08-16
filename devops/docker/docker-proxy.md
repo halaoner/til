@@ -8,7 +8,11 @@ Having a GitLab Runner that runs on EC2 on AWS. First, the GitLab Runner checks 
 
 > - `gitlab.int.com` should be resolved to IP for a machine, where the Nginx runs
 >
-> - a DNS record in `/etc/hosts` like `127.0.0.1 gitlab.int.com` has to be created on the machine where  Nginx runs
+> - a DNS record in `/etc/hosts` like `127.0.0.1 gitlab.int.com` has to be created on the machine where **Nginx runs**
+>
+> - a DNS record in `/etc/hosts` like `10.35.0.88 gitlab.int.com` on the **GitLab Runner** has to be created that points to the Nginx Reverse Proxy
+>
+> - `https://gitlab.int.com:5043` on the **Nexus Docker Proxy** points to the actual on-prem GitLab container registry
 
 _This configuration is done because it was a **requirement** NOT to interfere the CI pipeline configuration. Therefore, `gitlab.int.com` DNS record points to the Nginx Reverse Proxy (on the GitLab Runner) that proxying `gitlab.int.com` to Nexus Docker Proxy, and not directly to on-prem GitLab instance._
 
