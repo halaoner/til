@@ -69,6 +69,7 @@ Inspired by [jbranchaud/til](https://github.com/jbranchaud/til) repository.
     - [docker-machine](/devops/docker/docker-machine.md)
     - [Mounting Docker Volumes](/devops/docker/mounting-volumes.md)
     - [Building Multi-Architecture Docker Images With Buildx](/devops/docker/buildx-installation.md)
+    - [Docker Proxy (nexus & nginx)](/devops/gitlab/docker-proxy.md)
 - Git
     - [Push Empty Commit](/devops/git/push-empty-commit.md)
     - [Commit Signing Flow](/devops/git/commit-signing.md)
@@ -78,7 +79,7 @@ Inspired by [jbranchaud/til](https://github.com/jbranchaud/til) repository.
     - [Get Access Token](/devops/gitlab/get-access-token-gitlab.md)
     - [Get Statistics From a Project](/devops/gitlab/get-statistics-gitlab.md)
     - [Run GitLab Runner Locally](/devops/gitlab/run-gitlab-runner-locally.md)
-    - [GitLab Runners Installation](/devops/gitlab/install-gitlab-runners.md)
+    - [GitLab Runner Installation](/devops/gitlab/install-gitlab-runners.md)
     - [GitLab CI/ CD](/devops/gitlab/gitlab-ci-cd.md)
     - [Download GPG Public Key](/devops/gitlab/get-gpg-key.md)
     - [Upload GPG Public Key](/devops/gitlab/put-gpg-key.md)
