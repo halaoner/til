@@ -34,6 +34,7 @@ Inspired by [jbranchaud/til](https://github.com/jbranchaud/til) repository.
     - [GET Pre-signed URL For Every Object in S3 (AWS SDK)](/aws/Amazon-S3/pre-signed-url-for-each-object.md)
     - [Copy Files to S3 Bucket](/aws/Amazon-S3/copy-files-to-s3.md)
     - [Download Files from S3 Bucket](/aws/Amazon-S3/download-files-from-s3.md)
+    - [_s3 sync_ Command](/aws/Amazon-S3/s3-sync.md)
 - Amazon EFS
     - [Mounting EFS](/aws/Amazon-EFS/mounting-efs.md)
 - Amazon EC2
