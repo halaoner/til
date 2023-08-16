@@ -70,7 +70,7 @@ Inspired by [jbranchaud/til](https://github.com/jbranchaud/til) repository.
     - [docker-machine](/devops/docker/docker-machine.md)
     - [Mounting Docker Volumes](/devops/docker/mounting-volumes.md)
     - [Building Multi-Architecture Docker Images With Buildx](/devops/docker/buildx-installation.md)
-    - [Docker Proxy (nexus & nginx)](/devops/gitlab/docker-proxy.md)
+    - [Docker Proxy (nexus & nginx)](/devops/docker/docker-proxy.md)
 - Git
     - [Push Empty Commit](/devops/git/push-empty-commit.md)
     - [Commit Signing Flow](/devops/git/commit-signing.md)
