@@ -14,7 +14,7 @@ Having a GitLab Runner that runs on EC2 on AWS. First, the GitLab Runner checks 
 >
 > - `https://gitlab.int.com:5043` on the **Nexus Docker Proxy** points to the actual on-prem GitLab container registry
 
-_This configuration is done because it was a **requirement** NOT to interfere the CI pipeline configuration. Therefore, `gitlab.int.com` DNS record points to the Nginx Reverse Proxy (on the GitLab Runner) that proxying `gitlab.int.com` to the Nexus Docker Proxy (and not directly to on-prem GitLab instance.) that is passing the requests to the actual on-prem GitLab._
+_This configuration is done because it was a **requirement** NOT to interfere the CI pipeline configuration. Therefore, `gitlab.int.com` DNS record points to the Nginx Reverse Proxy (on the GitLab Runner) that proxying `gitlab.int.com` to the Nexus Docker Proxy (and not directly to on-prem GitLab instance) that is passing the requests to the actual on-prem GitLab._
 
 
 ## _Flow of the `docker pull gitlab.int.com` request_
