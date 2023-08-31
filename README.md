@@ -94,6 +94,10 @@ Inspired by [jbranchaud/til](https://github.com/jbranchaud/til) repository.
 ## Mac
 - [List Open Ports](mac/list-ports.md)
 
+# Contribution
+
+Feel free to open a new issue and a Pull Request if you see a room for improvement.
+
 # License
 
 © 2022-2023 halaoner
