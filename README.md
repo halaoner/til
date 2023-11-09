@@ -55,6 +55,7 @@ Inspired by [jbranchaud/til](https://github.com/jbranchaud/til) repository.
 - [gpg command](/unix/gpg-command.md)
 - [jq command](/unix/jq-command.md)
 - [strace command](/unix/trace-command.md)
+- [sudo command](/unix/sudo-command.md)
 - [vim command](/unix/vim-command.md)
 - [Binary not Found (Symbolic Link)](/unix/binary-not-found.md)
 - [SSH Authentication](/unix/ssh-authentication.md)
@@ -90,6 +91,9 @@ Inspired by [jbranchaud/til](https://github.com/jbranchaud/til) repository.
     - [HashiCorp Vault in a Docker Contanier](devops/hashicorp-vault.md)
 - JFrog
     - [Get Statistics From JFrog Artifactory](/devops/jfrog/get-statistics.md)
+- Nginx
+    - [Nginx Reverse Proxy](/devops/nginx/reverse-proxy.md)
+    - [Nginx Logging](/devops/nginx/enhance-logging.md)
 
 ## Mac
 - [List Open Ports](mac/list-ports.md)
